@@ -14,8 +14,8 @@ logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 app = Flask(__name__)
 
 # 腾讯云 COS 配置（请替换为实际值）
-COS_SECRET_ID = 'AKID86FF4f2FG6kFYjkiW9YklcHk6PXVJuIU'
-COS_SECRET_KEY = 'BJl25wcAVTFtMpEQPCpusdBWnuR4qaKu'
+COS_SECRET_ID = ''
+COS_SECRET_KEY = ''
 COS_REGION = 'ap-guangzhou'  # 替换为存储桶所属地域
 COS_BUCKET = 'xiaodao-1331856197'
 
